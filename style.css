@@ -1,0 +1,616 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(244,252,250);
+}
+.First{
+    background-image:linear-gradient(45deg,rgba(83, 221, 205, 0.75),rgba(83, 221, 205, 0.75)), url('./Images/background1.jpg');
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+}
+#first #navbar {
+    background-color: #38A595;
+    top: 0px;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+    visibility:hidden;
+    height: 70px;
+    position: absolute;
+}
+#first #navbarr {
+    background-color: transparent;
+    width: 100%;
+    display: block;
+    position: absolute;
+ }
+.block{
+    float: left; 
+}
+.logo{
+    width: 40%;
+}
+.logo img{
+    padding: 10px 0px 0px 40px;
+}
+.nav-links{
+    width: 60%;
+}
+.block ul{
+    list-style-type: none;
+}
+.block a{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.block li{
+    float: left;
+    padding: 0px 25px;
+    margin-top: 8px;
+}
+.nav-links #home{
+    padding-left: 50px;
+}
+.nav-links #apply{
+    background-color: #10C98F;
+    padding: 13px 20px;
+    margin-top: -7px;
+}
+.First .second h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    width: 361px;
+    margin: 0px 0px 0px 250px;
+    font-family: "Inter",sans-serif;
+    padding-top: 130px;
+}
+.First .second hr{
+    width: 105px;
+    height: 5px;
+    border: none;
+    background-color: #fff;
+    margin: 35px 0px 0px 250px;
+}
+.First .second p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    width: 361px;
+    margin: 35px 0px 0px 250px;
+    font-family: "Chivo",sans-serif;
+}
+.First .second #button1{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid white;
+    margin: 90px 0px 0px 250px;
+    color: white;
+}
+.First .second #button1:hover{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #10C98F;
+    border: 3px solid white;
+    margin: 90px 0px 0px 250px;
+    cursor: pointer;
+    color: white;
+}
+.First .third h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0F4332;
+    width: 361px;
+    margin: -470px 0px 0px 20px;
+    font-family: "Inter",sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.First .third #we {
+    margin: 2px 0px 0px 100px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4C5753;
+    padding-bottom: 10px;
+    width: 205px;
+    font-family: "Inter",sans-serif;
+}
+.First .third #amount {
+    margin: 35px 0px 0px 45px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #4C5753;
+    width: 205px;
+    font-family: "Inter",sans-serif;
+}
+.First .third #month {
+    margin: 20px 0px 0px 45px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #4C5753;
+    width: 205px;
+    font-family: "Inter",sans-serif;
+}
+.First .third hr {
+    width: 105px;
+    height: 5px;
+    border: none;
+    background-color: #10C98F;
+    margin: 10px 0px 0px 150px;
+}
+.First .third #amountdm {
+    margin: 15px 0px 0px 45px;
+    font-size: 15px;
+    color: #4C5753;
+    width: 75%;
+    height: 45px;
+    font-family: "Inter",sans-serif;
+    border: 1px solid #C9D6CB;
+    
+}
+.First .third option{
+    background-color: #0C8760;
+    font-size: large;
+    color: #071112;
+    font-size: 20px;
+}
+.First .third #option1{
+    background-color: #0C8760;
+    font-size: large;
+    color: #071112;
+    font-weight: bold;
+    font-size: 20px;
+}
+.First .third #monthdm {
+    margin: 15px 0px 0px 45px;
+    font-size: 15px;
+    color: #4C5753;
+    width: 75%;
+    font-family: "Inter",sans-serif;
+    height: 45px;
+    border: 1px solid #C9D6CB;
+    
+}
+.First .third #pay {
+    margin: 23px 0px 0px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4C5753;
+    width: 205px;
+    font-family: "Inter",sans-serif;
+}
+.First .third #pay a{
+    color:#10C98F;
+    font-size: 18px;
+}
+.First .third #button2 {
+    padding: 10px 65px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #10C98F;
+    border: none;
+    margin: 28px 0px 0px 70px;
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+}
+.First .third #provide {
+    margin: 23px 0px 0px 80px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4C5753;
+    width: 250px;
+    font-family: "Inter",sans-serif;
+}
+.First #box {
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin: 0px 0px 0px 930px;
+}
+.Second #first h1{
+    color: #0F4332;
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+.Second #first hr{
+    width: 105px;
+    height: 5px;
+    border: none;
+    background-color: #10C98F;
+}
+.Second #first h5{
+    color: #6D6D6D;
+    font-family: "Chivo",sans-serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 30%;
+    margin-left: 530px;
+}
+.Second #second h5,h1,h4{
+    font-family: "Chivo",sans-serif;
+    display: block;
+    font-weight: normal;
+}
+.Second #second h5{
+    color: #0C8760;
+    font-size: 14px;
+}
+.Second #second h1{
+    color: #0F4332;
+    font-weight: bold;
+}
+.Second #second h1:hover{
+    color: #0C8760;
+    font-weight: bold;
+}
+.Second #second h4{
+    color: #6D6D6D;    
+}
+.Second #second{
+    display: flex;
+    flex-wrap: nowrap;
+    font-style: normal;
+    flex-direction: row;
+    padding: 50px;
+    gap: 30px;
+    margin-left: 50px;
+}
+.Second #second #homeLoan {
+    width: 33%;
+}
+.Second #second #carLoan {
+    width: 33%;
+}
+.Second #second #bussinessLoan {
+    width: 33%;
+}
+.Third{
+    background-color: #E4F1ED;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Third #first {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Third #first img{
+    width: 400px;
+    height: 550px;
+    margin: 100px;
+}
+.Third #first #first1 #first2 h1{
+    font-family: "Chivo",sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 60px 0px 0px 0px;
+}
+.Third #first #first1{
+    background: #10C98F;
+    height: 230px;
+    width: 250px;
+    margin: -275px 0px 0px 345px;
+}
+.Third #first #first1 h5{
+    font-family: "Chivo",sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin: 5px 0px 0px 0px;
+}
+.Third #second{
+    color: #0F4332;
+    font-size: 21px;
+    padding: 80px;
+    width: 60%;
+}
+.Third #second h1{
+    font-weight: bold;
+}
+.Third #second p{
+    font-family: "Chivo",sans-serif;
+    font-size: 20px;
+    color: #6D6D6D;
+}
+.Third #second hr{
+    background-color: #CFDFDA;
+    border: none;
+    height: 2px;
+    margin: 30px 0px 30px 0px;
+}
+.Third #second ul,.Third #second li{
+    color: #0F4332;
+    font-family: "Chivo",sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    list-style-image: url(./Images/number1.svg);
+}
+.Third #second #button1{
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid #10C98F;
+    color: #10C98F;
+}
+.Third #second #button1:hover{
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #10C98F;
+    border: 3px solid white;
+    cursor: pointer;
+    color: white;
+}
+.Fourth #first h1{
+    color: #0F4332;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 50px;
+}
+.Fourth #first hr{
+    background-color: #10C98F;
+    width: 125px;
+    height: 3px;
+    border: none;
+}
+.Fourth #first p{
+    font-family: "Chivo",sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #6D6D6D;
+    width: 30%;
+    margin-left: 33%;
+    height: max-content;
+    padding: 10px;
+}
+.Fourth #first #first1{
+    display: flex;
+    flex-wrap: nowrap;
+    font-style: normal;
+    flex-direction: row;
+    padding: 50px;
+    gap: 30px;
+    text-align: center;
+}
+.Fourth #first #first1 h5{
+    font-family: "Inter",sans-serif;
+    color: #0F4332;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.Fourth #first #first1 h5:hover{
+    font-family: "Inter",sans-serif;
+    color: #10C98F;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.Fourth #first #first1 h4{
+ color: #4C5753;   
+}
+.Fifth{
+    background-color: #E4F1ED;
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Fifth #first{
+    margin: 80px 0px 0px 150px;
+}
+.Fifth #first h1{
+    color: #0F4332;
+    font-weight: bold;
+    font-size: 36px;
+}
+.Fifth #first p{
+    color: #6D6D6D;
+    font-family: "Chivo",sans-serif;
+    width: 88%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.Fifth #first hr{
+    background-color: #CFDFDA;
+    border: none;
+    height: 2px;
+    width: 80%;
+    margin: 0;
+}
+.Fifth #first ul, li{
+    color: #0F4332;
+    font-family: "Chivo",sans-serif;
+    padding: 10px;
+    font-size: large;
+    letter-spacing: -0.4px;
+}
+.Fifth #first #button1{
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid #10C98F;
+    color: #10C98F;
+}
+.Fifth #first #button1:hover{
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #10C98F;
+    border: 3px solid white;
+    cursor: pointer;
+    color: white;
+}
+.Fifth #first #second ul,.Fifth #first #second li{
+    color: #0F4332;
+    font-family: "Chivo",sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    list-style-image: url(./Images/number1.svg);
+}
+.Fifth #second img{
+    width: 550px;
+    height: 500px;
+    margin: 79px 130px 0px 0px;
+}
+.Sixth{
+    background-color: #0F4332;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Sixth #first{
+    margin: 0px 0px 0px 0px;
+}
+.Sixth p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Chivo",sans-serif;
+    text-align: center;
+}
+.Sixth #first #first1 h1{
+    padding: 20px;
+    text-align: center;
+}
+.Sixth #first #first2 h1{
+    padding: 20px;
+    text-align: center;
+}
+/* slider code */
+.Sixth {
+    width: 100%;
+  }
+  
+  .Sixth #first {
+    width: 60%;
+    /* overflow: hidden; */
+    margin: 60px 0px 0px 250px;
+  }
+  
+  .slide {
+    /* position: relative; */
+    color: #D5ECE5;
+  }
+  
+  .slide #image1 {
+    width: 200px;
+    height: 200px;
+  }
+  .slide #image2 {
+    margin: 60px 0px 0px 75px;
+  }
+  .slide h2 {
+    color: #D5ECE5;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Chivo",sans-serif;
+    text-align: left;
+    margin: -60px 0px 0px 180px;
+  }
+  .slide #p2 {
+    color: #D5ECE5;
+    font-size: 13px;
+    font-family: "Chivo",sans-serif;
+    text-align: left;
+    margin: 260px 0px 0px 140px;
+    word-spacing: normal;
+  }
+.slide p{
+    margin: 50px 0px 0px 0px;
+    text-align: left;
+    word-spacing: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 2;
+    padding-left: 45px;
+}
+  
+  /* Show first slide by default */
+  .slide:first-child {
+    display: block;
+  }
+  
+  /* Add fade-in and fade-out effect */
+  .slide.fade-in {
+    animation: fade-in 1s;
+  }
+  
+  .slide.fade-out {
+    animation: fade-out 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Auto-play slider */
+  .slide {
+    animation: slide 5s ease-in-out infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    90% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+.Seventh {
+    height: 750px;
+    background-color: #10C98F;
+}
+
+
+
+1. presentation round
+2. technical
+

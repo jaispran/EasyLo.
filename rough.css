@@ -1,0 +1,86 @@
+.slider-container {
+    width: 100%;
+    position: relative;
+  }
+  
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: relative;
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  /* Show first slide by default */
+  .slide:first-child {
+    display: block;
+  }
+  
+  /* Add fade-in and fade-out effect */
+  .slide.fade-in {
+    animation: fade-in 1s;
+  }
+  
+  .slide.fade-out {
+    animation: fade-out 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Auto-play slider */
+  .slide {
+    animation: slide 5s ease-in-out infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    90% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
